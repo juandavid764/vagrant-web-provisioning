@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi primer sitio con Vagrant</title>
+  <meta charset="utf-8">
+  <title>Bienvenido — Juan David</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 3rem auto; padding: 0 1rem; color: #222; }
+    header { text-align: center; margin-bottom: 1.5rem; }
+    .card { background: #f9f9f9; padding: 1.25rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+    a { color: #0366d6; text-decoration: none; }
+  </style>
 </head>
 <body>
-  <h1>¡Hola desde Apache en la VM web!</h1>
-  <p>Este sitio está corriendo en la máquina virtual provisionada con Vagrant.</p>
-  <a href="info.php">Ver script en PHP</a>
+  <header>
+    <h1>Bienvenido a mi sitio</h1>
+    <p>Hola, soy <strong>Juan David</strong>.</p>
+  </header>
+
+  <main class="card">
+    <p>Esta página está corriendo en la máquina virtual provisionada con Vagrant y servida por Apache.</p>
+    <p><a href="info.php">Ver script en PHP (info.php)</a></p>
+  </main>
 </body>
 </html>
