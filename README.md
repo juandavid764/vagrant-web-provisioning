@@ -101,9 +101,3 @@ Imagen de la página principal (`index.html`) — Markdown:
 Imagen de la página PHP (`info.php`) — Markdown:
 
 ![Página info.php](assets/cap_info.PNG)
-
-Si prefieres controlar el tamaño, aquí están las mismas imágenes usando HTML (ancho fijado a 700px):
-
-<img src="assets/cap_index.PNG" alt="Página principal" width="700" />
-
-<img src="assets/cap_info.PNG" alt="Página info.php" width="700" />
